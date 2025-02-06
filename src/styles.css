@@ -561,6 +561,45 @@ video {
   margin-right: 0px;
 }
 
+.mx-\[136px\]{
+  margin-left: 136px;
+  margin-right: 136px;
+}
+
+.mx-\[20px\]{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.mx-\[222px\]{
+  margin-left: 222px;
+  margin-right: 222px;
+}
+
+.mx-\[229px\]{
+  margin-left: 229px;
+  margin-right: 229px;
+}
+
+.mx-\[30px\]{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.my-\[48px\]{
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.my-\[52px\]{
+  margin-top: 52px;
+  margin-bottom: 52px;
+}
+
+.mb-4{
+  margin-bottom: 1rem;
+}
+
 .mt-4{
   margin-top: 1rem;
 }
@@ -579,6 +618,14 @@ video {
 
 .table{
   display: table;
+}
+
+.h-6{
+  height: 1.5rem;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-\[25\%\]{
@@ -605,6 +652,10 @@ video {
   align-items: center;
 }
 
+.justify-center{
+  justify-content: center;
+}
+
 .justify-between{
   justify-content: space-between;
 }
@@ -619,6 +670,10 @@ video {
 
 .rounded-\[32px\]{
   border-radius: 32px;
+}
+
+.rounded-\[50px\]{
+  border-radius: 50px;
 }
 
 .border{
@@ -659,6 +714,21 @@ video {
   background-color: rgb(95 156 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-pink{
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 104 169 / var(--tw-bg-opacity, 1));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.px-1{
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -672,6 +742,16 @@ video {
 .px-\[100px\]{
   padding-left: 100px;
   padding-right: 100px;
+}
+
+.px-\[24px\]{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.py-0{
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .py-2{
@@ -697,6 +777,10 @@ video {
 .py-\[52px\]{
   padding-top: 52px;
   padding-bottom: 52px;
+}
+
+.text-center{
+  text-align: center;
 }
 
 .text-3xl{
@@ -750,6 +834,11 @@ video {
   color: rgb(95 156 255 / var(--tw-text-opacity, 1));
 }
 
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity, 1));
+}
+
 .text-light-blue{
   --tw-text-opacity: 1;
   color: rgb(95 156 255 / var(--tw-text-opacity, 1));
@@ -793,4 +882,28 @@ th, td{
 th{
   text-align: left;
   background-color: #82868B;
+}
+
+@media (max-width: 640px){
+  .mobile\:mx-3{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+  }
+
+  .mobile\:mx-4{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .mobile\:block{
+    display: block;
+  }
+
+  .mobile\:inline-block{
+    display: inline-block;
+  }
+
+  .mobile\:flex-col{
+    flex-direction: column;
+  }
 }
