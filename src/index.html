@@ -7,35 +7,38 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="px-[100px] py-6 flex justify-between items-center border border-b border-grey">
+    <header class="px-[100px] py-6 flex justify-between items-center border border-b border-grey mobile:px-4">
         <h1 class="text-3xl font-bold bg-black text-white py-4 px-2 rounded">KD</h1>
+ <i class="fas fa-ellipsis-h absolute right-[100px] hidden mobile:block" id="open"></i>
+        <i class="fas fa-times absolute right-[100px] top-2 hidden mobile:block" id="close"></i>
+        <nav class=" flex mobile:flex-col mobile:hidden absolute right-[20px] px-[100px]"id="nav">
 
-        <nav>
-            <ul class="flex gap-12 text-xl items-center">
+            <ul class="flex gap-12 text-xl items-center  flex-col bg-yellow-400 mobile:hidden">
                 <li class="font-bold text-xl text-light-blue">Sign Up</li>
                 <li class="font-bold text-xl text-white bg-light-blue py-2 px-6 rounded-[32px]">Login</li>
             </ul>
         </nav>
     </header>
 
-    <main class="">
-        <section class="py-[144px] flex justify-between px-[100px]">
+    <main class="mobile:20px">
+        <section class="py-[144px] flex justify-between px-[100px]mobile:px-4 mobile:flex-col">
             <div class=" flex flex-col">
                 <h1 class="text-7xl font-extrabold w-[60%]"> <span class="text-pink">Learning</span> while having fun</h1>
-                <p class="text-lg text-[#2D2D2D] mt-[23px] w-[50%]">Join over 70 kids to learn and create amazing stuffs and become better in your area of interest.</p>
-                <div class="mt-[100px]">
+                <p class="text-lg text-[#2D2D2D] mt-[23px] w-[50%]  mobile:mx-0">Join over 70 kids to learn and create amazing stuffs and become better in your area of interest.</p>
+                <div class="mt-[100px] mobile:flex">
                     <button class="bg-[#6482DD] text-white btns">Join the fun</button>
                     <button class="text-[#5F9CFF] border border-[#5F9CFF] btns">Watch a video</button>
                 </div>
             </div>
-            <div class="w-[505px]">
-                <img src="../assets/child.png" alt="Image of a child playing">
+            <div class="w-[505px] mobile:mt-[100px]">
+                <img src="../assets/child.png" alt="Image of a child playing" class="mobile:w-[50%]">
             </div>
         </section>
 
-        <section class="py-[52px] bg-[#EEF2FF] mx-0 px-[100px]">
+        <section class="py-[52px] bg-[#EEF2FF] px-[100px] flex justify-between mobile:flex-col mobile:px-4">
+            <div class="overflow-x-auto mobile:max-w-full">
             <h2 class="text-4xl font-semibold">10 Best Students</h2>
-            <p class="text-[#2D2D2D] text-xl font-normal mt-4 w-[25%]">Some students are already moving up the table with their awesome performances.</p>
+            <p class="text-[#2D2D2D] text-xl font-normal mt-4 w-[25%]  mobile:w-fit">Some students are already moving up the table with their awesome performances.</p>
             <div>
                 <table class="table">
                     <thead>
